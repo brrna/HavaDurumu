@@ -61,8 +61,8 @@ function App() {
   const [data, setData] = useState([]);
 
   const api = {
-    key: "7808c21a38a6a17c15b1ba7f2eff4b84",
-    baseUrl: "https://api.openweathermap.org/data/2.5"
+    key: "****",
+    baseUrl: "https://api.****"
   };
 
   const fetchDataHandler = useCallback(() => {
@@ -111,7 +111,7 @@ function App() {
             <Text
               style={styles.cityCountyText}>
               {`${data?.name}, ${data?.sys?.country}`}
-            </Text>
+            </Text> 
 
             <Text
               style={styles.dateText}>
